@@ -1,6 +1,7 @@
 const express = require('express');
 
 const app = express ();
+const employeesEndpoint = require("api/employee-api")
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
@@ -16,3 +17,5 @@ app.get("/status", (request, response) => {
 
     response.send(status);
 });
+
+app.use(employeesEndpoint());

@@ -2,8 +2,9 @@
   "name": "employees-backend",
   "version": "1.0.0",
   "description": "Playing around with Node. This is a mock web application holding employee details. No actual Personally Identifiable Information (PII) is held in this repo, nor does it access any third party databases.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
