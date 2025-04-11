@@ -1,0 +1,28 @@
+{
+    "employees": [
+        {
+            "firstName": "Peter",
+            "lastName": "Smith",
+            "role": "Web Developer",
+            "department": "Software Delivery"
+        },
+        {
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "role": "Web Developer",
+            "department": "Software Delivery"
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Bloggs",
+            "role": "QA Tester",
+            "department": "Software Delivery"
+        },
+        {
+            "firstName": "Laura",
+            "lastName": "Bloggs",
+            "role": "Product Manager",
+            "department": "Product Delivery"
+        }
+    ]
+}
