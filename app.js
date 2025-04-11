@@ -1,7 +1,7 @@
 const express = require('express');
-
 const app = express ();
-const employeesEndpoint = require("api/employee-api")
+
+let employeesEndpoint = require("./api/employee-api");
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
@@ -14,8 +14,7 @@ app.get("/status", (request, response) => {
     const status = {
           "Status": "Running"
     };
-
     response.send(status);
 });
 
-app.use(employeesEndpoint());
+app.use("/employees", employeesEndpoint);
